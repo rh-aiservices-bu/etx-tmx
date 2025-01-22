@@ -191,6 +191,7 @@ seed_examples:
           In the case of 'construction contracts', claims are considered in the determination of contract revenue only when it is highly probable that the claim will result in additional revenue and the amount can be reliably estimated.
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
-  commit: 13400be55bc92b9577d372d3e11194896860d0ff
+  commit: 1234
   patterns:
-    - 'data_preparation/document_collection/reports/2023/*.pdf'
+    - 'data_preparation/document_collection/reports/annual_reports/2023/*.pdf'
+    - 'data_preparation/document_collection/reports/annual_reports/2024/*.pdf'

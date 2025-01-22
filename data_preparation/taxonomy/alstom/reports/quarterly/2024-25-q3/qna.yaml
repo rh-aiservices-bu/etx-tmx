@@ -104,6 +104,6 @@ seed_examples:
           Alstom received new orders from two undisclosed European customers totaling €760 million. The first order, valued at approximately €500 million, involves the supply of materials and components for Alstom fleets over the next 23 years. The second order, worth approximately €260 million, is for a full maintenance services agreement over 9 years for a regional trains fleet, including first-level
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
-  commit: 13400be55bc92b9577d372d3e11194896860d0ff
+  commit: 1234
   patterns:
-    - 'data_preparation/document_collection/reports/2023/*.pdf'
+    - 'data_preparation/document_collection/reports/press_releases/2025/*.pdf'
