@@ -19,17 +19,17 @@ seed_examples:
       For the first nine months of 2024/25 (from 1 April to 31 December 2024 ), Alstom's order intake reached € 15.2 billion , compared to €1 3.9 billion for the same period last fiscal year. The Group sales increased by  5.3%  over  9  months,  of  which  6.9%  organic  growth, reaching  €1 3.4  billion,  and  Rolling  Stock production output equalled 3,101 cars for the 9 months.
     questions_and_answers:
       - question: |
-          What does the outlook look like for the fourth quarter of 2024/2025?
+          What were Alstom's order intake and sales figures for the third quarter of 2024/25?
         answer: |
-          the first month of the fourth quarter reached 15.2 billion, compared to 13.2 billion in the same period in last fiscal year.Alstom is expected to post good growth.
+          In the third quarter of 2024/25, Alstom's order intake amounted to €4.3 billion, while group's sales reached €4.7 billion.
       - question: |
-          xxxxxxx
+          How did Alstom's sales performance compare year-on-year for the first nine months of 2024/25?
         answer: |
-          xxxxxxx
+          For the first nine months of 2024/25, Alstom's sales increased by 5.3% compared to the same period last fiscal year, with 6.9% of that growth being organic.
       - question: |
-          xxxxxx
+          What is Alstom's outlook for the fiscal year 2024/25?
         answer: |
-          xxxxxxx
+          Alstom's outlook for the fiscal year 2024/25 includes a book-to-bill ratio above 1, organic sales growth around 5%, an adjusted EBIT margin of approximately 6.5%, and free cash flow within the range of €300 million to €500 million.
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
   commit: 13400be55bc92b9577d372d3e11194896860d0ff
