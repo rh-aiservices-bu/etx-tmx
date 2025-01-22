@@ -30,6 +30,78 @@ seed_examples:
           What is Alstom's outlook for the fiscal year 2024/25?
         answer: |
           Alstom's outlook for the fiscal year 2024/25 includes a book-to-bill ratio above 1, organic sales growth around 5%, an adjusted EBIT margin of approximately 6.5%, and free cash flow within the range of €300 million to €500 million.
+seed_examples:
+  - context: |
+      The backlog, as of 31 December 2024 , settled at € 94.7 billion, providing strong visibility on future sales.
+
+      ## Key figures
+
+      | Reported figures  (in € million)   | 2023/24  Q3   | 2024/25  Q3   | % Change  Reported   | % Change  Organic   |
+      |------------------------------------|---------------|---------------|----------------------|---------------------|
+      | Orders received                    | 5,452         | 4,260         | (21.9)%              | (22.2)%             |
+      | Sales                              | 4,332         | 4,672         | +7.9%                | +9.8%               |
+    questions_and_answers:
+      - question: |
+          What was the backlog amount as of 31 December 2024, and what does it indicate about future sales?
+        answer: |
+          The backlog as of 31 December 2024 was €94.7 billion. This substantial backlog provides strong visibility on future sales, indicating a healthy pipeline of orders that the company expects to fulfill in the coming periods.
+      - question: |
+          How did the orders received in Q3 of 2024/25 compare to Q3 of 2023/24, and what was the percentage change?
+        answer: |
+          In Q3 of 2024/25, the orders received were €4,260 million, compared to €5,452 million in Q3 of 2023/24. This represents a reported percentage decrease of 21.9% and an organic percentage decrease of 22.2%.
+      - question: |
+          What was the percentage change in sales from Q3 of 2023/24 to Q3 of 2024/25, and how does it differ between reported and organic figures?
+        answer: |
+          Sales increased from €4,332 million in Q3 of 2023/24 to €4,672 million in Q3 of 2024/25. The reported percentage change in sales was +7.9%, while the organic percentage change was slightly higher at +9.8%.
+seed_examples:
+  - context: |
+      The backlog, as of 31 December 2024 , settled at € 94.7 billion, providing strong visibility on future sales.
+
+      ## Key figures
+
+      | Reported figures  (in € million)   | 2023/24  9 months   | 2024/25  9 months   | % Change  Reported   | % Change  Organic   |
+      |------------------------------------|---------------------|---------------------|----------------------|---------------------|
+      | Orders received                    | 13,898              | 15,210              | +9.4%                | +9.4%               |
+      | Sales                              | 12,775              | 13,448              | +5.3%                | +6.9%               |
+    questions_and_answers:
+      - question: |
+          How did the orders received for the first nine months of 2024/25 compare to the same period in 2023/24, and what was the percentage change?
+        answer: |
+          For the first nine months of 2024/25, the orders received were €15,210 million, compared to €13,898 million for the same period in 2023/24. This represents a reported and organic percentage increase of 9.4%.
+      - question: |
+          What was the change in sales for the first nine months of 2024/25 compared to 2023/24, and how do the reported and organic percentage changes differ?
+        answer: |
+          Sales for the first nine months of 2024/25 were €13,448 million, up from €12,775 million in the same period of 2023/24. The reported percentage change in sales was +5.3%, while the organic percentage change was slightly higher at +6.9%.
+      - question: |
+          What do the percentage changes in orders received and sales indicate about the company's performance over the first nine months of 2024/25?
+        answer: |
+          The percentage changes indicate a positive performance for the company over the first nine months of 2024/25. Orders received increased by 9.4% both reported and organically, suggesting strong demand. Sales also grew, with a reported increase of 5.3% and an organic increase of 6.9%, reflecting effective conversion of orders into revenue.
+seed_examples:
+  - context: |
+      ## Detailed review
+
+      During  the  third  quarter  of  2024/25  (from  1  October  to  31  December  2024),  Alstom  recorded € 4,260 million in orders, compared to €5,452 million over the same period last fiscal year.
+
+      Orders for Services and Signalling reached 65% of the third quarter order intake, and 58% over 9 months.
+
+      On a regional level, Europe accounts for 64% of the Group 's  third  quarter order intake. Alstom has received new orders from two undisclosed European customers for a total amount of €760 million . The first order worth approximately €500 million concerns supply of materials and components on Alstom fleets for  the  next  23  years.  The  second  order  worth  approximately  €260  million concerns  a  full maintenance services agreement for 9 years on a regional trains fleet, including first level maintenance and mid-life overhaul.
+
+      In France, Alstom will supply SNCF Voyageurs with 35 additional RER NG trains for the RER E line on the Île-de-France Mobilités network. Worth € 520 million euros, this new order is a call-off on the frame agreement signed in 2017 and brings to 166 the total number of trains ordered for the RER D and RER E lines, out of an estimated overall need of 255 trains.
+
+      In Lille, Alstom will supply the Métropole Européenne de Lille (MEL) with 15 additional 52-metre long new-generation automated metro trainsets, at a price of around € 210 million euro. These new trains will complete the first batch of 27 trains already ordered by the MEL and equipped with the new Urbalis Fluence signalling and automatic control system.
+    questions_and_answers:
+      - question: |
+          How did Alstom's order intake in the third quarter of 2024/25 compare to the same period in the previous fiscal year?
+        answer: |
+          In the third quarter of 2024/25, Alstom recorded €4,260 million in orders, which is a decrease compared to €5,452 million recorded during the same period in the previous fiscal year.
+      - question: |
+          What percentage of Alstom's third-quarter order intake was attributed to Services and Signalling, and how does this compare over a nine-month period?
+        answer: |
+          Services and Signalling accounted for 65% of Alstom's third-quarter order intake. Over a nine-month period, this percentage was 58%.
+      - question: |
+          Can you provide details about the new orders Alstom received from European customers during this quarter?
+        answer: |
+          Alstom received new orders from two undisclosed European customers totaling €760 million. The first order, valued at approximately €500 million, involves the supply of materials and components for Alstom fleets over the next 23 years. The second order, worth approximately €260 million, is for a full maintenance services agreement over 9 years for a regional trains fleet, including first-level
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
   commit: 13400be55bc92b9577d372d3e11194896860d0ff
