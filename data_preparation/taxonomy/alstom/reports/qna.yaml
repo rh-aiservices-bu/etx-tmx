@@ -1,0 +1,18 @@
+version: 3
+domain: 
+created_by: 
+document_outline: |
+    xxxxxxx
+seed_examples:
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+
+document:
+  repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
+  commit: 13400be55bc92b9577d372d3e11194896860d0ff
+  patterns:
+    - 'data_preparation/document_collection/reports/2023/*.pdf'
