@@ -1,8 +1,8 @@
 version: 3
-domain: Alstom's Press Releases
+domain: Alstom's Reports
 created_by: tmx-group
 document_outline: |
-    Alstom press releases contains forward-looking statements which are based on current plans and forecasts of Alstom's management.
+    Alstom's third quarter 2024/25: confirmed outlook for FY 2024/25
 seed_examples:
   - context: |
       ## Alstom's third quarter 2024/25: confirmed outlook for FY 2024/25
