@@ -1,0 +1,196 @@
+version: 3
+domain: Alstom's Reports
+created_by: tmx-group
+document_outline: |
+    Alstom's Consolidated financial statements Year ended 31 March 2023
+seed_examples:
+  - context: |
+      ## CONSOLIDATED INCOME STATEMENT
+      Year ended
+
+      | (in € million)                                                  | Note   | At 31 March 2023   | At 31 March 2022   |
+      |-----------------------------------------------------------------|--------|--------------------|--------------------|
+      | Sales                                                           | (3)    | 16,507             | 15,471             |
+      | Cost of sales                                                   |        | (14,541)           | (13,746)           |
+      | Research and development expenses                               | (4)    | (580)              | (604)              |
+      | Selling expenses                                                | (5)    | (375)              | (354)              |
+      | Administrative expenses                                         | (5)    | (721)              | (642)              |
+      | Other income/(expense)                                          | (6)    | (369)              | (281)              |
+      | Earnings Before Interests and Taxes                             |        | (79)               | (156)              |
+      | Financial income                                                | (7)    | 36                 | 70                 |
+      | Financial expense                                               | (7)    | (139)              | (95)               |
+      | Pre-tax income                                                  |        | (182)              | (181)              |
+      | Income Tax Charge                                               | (8)    | (34)               | (27)               |
+      | Share in net income of equity-accounted investments             | (13)   | 112                | (347)              |
+      | Net profit (loss) from continuing operations                    |        | (104)              | (555)              |
+      | Net profit (loss) from discontinued operations                  | (9)    | (4)                | (5)                |
+      | NET PROFIT (LOSS)                                               |        | (108)              | (560)              |
+      | Net profit (loss) attributable to equity holders of the parent  |        | (132)              | (581)              |
+    questions_and_answers:
+      - question: |
+          What were Alstom's sales at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's sales were €16,507 million at 31 March 2023 and €15,471 million at 31 March 2022.
+      - question: |
+          What were Alstom's cost of sales at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's cost of sales was €14,541 million at 31 March 2023 and €13,746 million at 31 March 2022.
+      - question: |
+          What were Alstom's research and development expenses at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's research and development expenses were €580 million at 31 March 2023 and €604 million at 31 March 2022.
+  - context: |
+      ## CONSOLIDATED INCOME STATEMENT
+      
+      Year ended
+
+      | (in € million)                                                  | Note   | At 31 March 2023   | At 31 March 2022   |
+      |-----------------------------------------------------------------|--------|--------------------|--------------------|
+      | Sales                                                           | (3)    | 16,507             | 15,471             |
+      | Cost of sales                                                   |        | (14,541)           | (13,746)           |
+      | Research and development expenses                               | (4)    | (580)              | (604)              |
+      | Selling expenses                                                | (5)    | (375)              | (354)              |
+      | Administrative expenses                                         | (5)    | (721)              | (642)              |
+      | Other income/(expense)                                          | (6)    | (369)              | (281)              |
+      | Earnings Before Interests and Taxes                             |        | (79)               | (156)              |
+      | Financial income                                                | (7)    | 36                 | 70                 |
+      | Financial expense                                               | (7)    | (139)              | (95)               |
+      | Pre-tax income                                                  |        | (182)              | (181)              |
+      | Income Tax Charge                                               | (8)    | (34)               | (27)               |
+      | Share in net income of equity-accounted investments             | (13)   | 112                | (347)              |
+      | Net profit (loss) from continuing operations                    |        | (104)              | (555)              |
+      | Net profit (loss) from discontinued operations                  | (9)    | (4)                | (5)                |
+      | NET PROFIT (LOSS)                                               |        | (108)              | (560)              |
+      | Net profit (loss) attributable to equity holders of the parent  |        | (132)              | (581)              |
+    questions_and_answers:
+      - question: |
+          At 31 March 2023 and 31 March 2022, what were Alstom's sales?
+        answer: |
+          At 31 March 2023, Alstom's sales were €16,507 million and at 31 March 2022, Alstom's sales were €15,471 million.
+      - question: |
+          At 31 March 2023 and 31 March 2022, what were Alstom's cost of sales?
+        answer: |
+          At 31 March 2023, Alstom's cost of sales was €14,541 million and at 31 March 2022, Alstom's cost of sales was €13,746 million.
+      - question: |
+          At 31 March 2023 and 31 March 2022, what were Alstom's research and development expenses?
+        answer: |
+          At 31 March 2023, Alstom's research and development expenses were €580 million and at 31 March 2022, Alstom's research and development expenses were €604 million.
+  - context: |
+      ## CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME
+
+      Year ended
+
+      | (in € million)                                                                      | Note      | At 31 March 2023   | At 31 March 2022   |
+      |-------------------------------------------------------------------------------------|-----------|--------------------|--------------------|
+      | Net profit (loss) recognised in income statement                                    |           | (108)              | (560)              |
+      | Remeasurement of post-employment benefits obligations                               | (29)      | 256                | 341                |
+      | Equity investments at FVOCI                                                         | (13)/(14) | 9                  | (1)                |
+      | Income tax relating to items that will not be reclassified to profit or loss        | (8)       | (6)                | (15)               |
+      | Items that will not be reclassified to profit or loss                               |           | 259                | 325                |
+      | of which from equity-accounted investments                                          |           | -                  | -                  |
+      | Fair value adjustments on cash flow hedge derivatives                               |           | 1                  | -                  |
+      | Costs of hedging reserve                                                            |           | 57                 | (10)               |
+      | Currency translation adjustments (*)                                                | (23)      | (220)              | 177                |
+      | Income tax relating to items that may be reclassified to profit or loss             | (8)       | (5)                | -                  |
+      | Items that may be reclassified to profit or loss                                    |           | (167)              | 167                |
+      | of which from equity-accounted investments                                          | (13)      | (73)               | 77                 |
+      | TOTAL COMPREHENSIVE INCOME                                                          |           | (16)               | (68)               |
+    questions_and_answers:
+      - question: |
+          What was Alstom's net profit (loss) recognised in the income statement at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's net profit (loss) recognised in the income statement was €108 million at 31 March 2023 and €560 million at 31 March 2022.
+      - question: |
+          What was Alstom's remeasurement of post-employment benefits obligations at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's remeasurement of post-employment benefits obligations was €256 million at 31 March 2023 and €341 million at 31 March 2022.
+      - question: |
+          What was Alstom's equity investments at FVOCI at 31 March 2023 and 31 March 2022?
+        answer: |
+          Alstom's equity investments at FVOCI was €9 million at 31 March 2023 and €1 million at 31 March 2022.
+  - context: |
+      ## CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME
+
+      Year ended
+
+      | (in € million)                                                                      | Note      | At 31 March 2023   | At 31 March 2022   |
+      |-------------------------------------------------------------------------------------|-----------|--------------------|--------------------|
+      | Net profit (loss) recognised in income statement                                    |           | (108)              | (560)              |
+      | Remeasurement of post-employment benefits obligations                               | (29)      | 256                | 341                |
+      | Equity investments at FVOCI                                                         | (13)/(14) | 9                  | (1)                |
+      | Income tax relating to items that will not be reclassified to profit or loss        | (8)       | (6)                | (15)               |
+      | Items that will not be reclassified to profit or loss                               |           | 259                | 325                |
+      | of which from equity-accounted investments                                          |           | -                  | -                  |
+      | Fair value adjustments on cash flow hedge derivatives                               |           | 1                  | -                  |
+      | Costs of hedging reserve                                                            |           | 57                 | (10)               |
+      | Currency translation adjustments (*)                                                | (23)      | (220)              | 177                |
+      | Income tax relating to items that may be reclassified to profit or loss             | (8)       | (5)                | -                  |
+      | Items that may be reclassified to profit or loss                                    |           | (167)              | 167                |
+      | of which from equity-accounted investments                                          | (13)      | (73)               | 77                 |
+      | TOTAL COMPREHENSIVE INCOME                                                          |           | (16)               | (68)               |
+    questions_and_answers:
+      - question: |
+          At 31 March 2023 and 31 March 2022, what was Alstom's net profit (loss) recognised in the income statement?
+        answer: |
+          At 31 March 2023, Alstom's net profit (loss) recognised in the income statement was €108 million and at 31 March 2022, Alstom's net profit (loss) recognised in the income statement was €560 million.
+      - question: |
+          At 31 March 2023 and 31 March 2022, what was Alstom's remeasurement of post-employment benefits obligations?
+        answer: |
+          At 31 March 2023, Alstom's remeasurement of post-employment benefits obligations was €256 million and at 31 March 2022, Alstom's remeasurement of post-employment benefits obligations was €341 million.
+      - question: |
+          At 31 March 2023 and 31 March 2022, what was Alstom's equity investments at FVOCI?
+        answer: |
+          At 31 March 2023, Alstom's equity investments at FVOCI was €9 million and at 31 March 2022, Alstom's equity investments at FVOCI was €1 million.
+  - context: |
+      ## 1.1.2. Uncertainties linked to the current economic and political context
+
+      The current economic and political context creates uncertainties on business activities (namely inflation, price volatility of  certain  commodities,  energy,  increases  of  interest  rates,  supply  chain  disruptions  or  electronic  components shortage…). Nevertheless, the Group carefully follows and monitors the potential increase in its cost structures (raw materials prices, supply chain and wages inflation), being quite well protected (71% of the backlog being covered by price escalation clauses on global inflation - commodities, energy and labour indexes).
+
+      Impairment tests have been performed on goodwill, technology and other intangible assets (see Note 11), with no impairment risks identified  as  of  31  March  2023.  Recognition  of  deferred  tax  assets  has  been  assessed  based  on reasonable estimates and on the information available as at March 2023 (see Note 8).
+
+      The  Group  took  into  consideration  the  potential  impacts  due  to  the  specific  context  described  above  in  the  key assumptions as well as in the business plan used for, based on its best reasonable estimates and the visibility available for  its  operations  at  31  March  2023.  Some  enlarged  sensitivity  analyses  were  performed  with  regards  to  the  key assumptions that would not lead to an impairment loss of goodwill as the recoverable amount still exceeds its carrying value.
+    questions_and_answers:
+      - question: |
+          What uncertainties are linked to the current economic and political context?
+        answer: |
+          The current economic and political context creates uncertainties on business activities, such as inflation, price volatility of certain commodities, energy, increases of interest rates, supply chain disruptions, or electronic components shortage. The Group carefully follows and monitors the potential increase in its cost structures, such as raw materials prices, supply chain, and wages inflation, being quite well protected with 71% of the backlog covered by price escalation clauses on global inflation - commodities, energy, and labor indexes.
+      - question: |
+          What impairment tests have been performed?
+        answer: |
+          Impairment tests have been performed on goodwill, technology, and other intangible assets with no impairment risks identified as of 31 March 2023. Recognition of deferred tax assets has been assessed based on reasonable estimates and the information available as of March 2023.
+      - question: |
+          What potential impacts have been taken into consideration?
+        answer: |
+          The Group took into consideration the potential impacts due to the specific context described above in the key assumptions as well as in the business plan used for, based on its best reasonable estimates and the visibility available for its operations at 31 March 2023.
+  - context: |
+      ## Measurement of sales and costs
+
+      The  amount  of  revenue  arising  from  a  transaction  is  usually  determined  by  the  contractual  agreement  with  the customer.  IFRS  15  provides  restrictive  guidance  on  the  transaction  price  estimates  and  especially  on  variable consideration and contract modifications.
+
+      The estimation of the transaction price should include variable amounts and/or contract modifications to the extent that it is highly probable that no significant reversal in the amount of cumulative revenues recognized will occur when the uncertainty associated with these elements is subsequently resolved. The introduction of this constraint on the price escalation estimates on the one hand, as well as the incorporation of amendments under negotiation on the other hand, leads to recognize these effects on contract value at a later point in time, when they become enforceable.
+
+      In the case of 'construction contracts' claims are considered in the determination of contract revenue only when it is highly probable that the claim will result in additional revenue and the amount can be reliably estimated.
+
+      Penalties are first taken into account as an increase of contract costs and in a second step as a reduction of contract revenue as soon as they are accepted.
+
+      Finally, a significant financial component should be introduced positively or negatively on revenue, when timing of cash receipts and revenue recognition under cost to cost method differ substantially.
+
+      Production costs include direct costs (such as material, labour and warranty costs) and indirect costs. Warranty costs are estimated on the basis of contractual agreement, available statistical data and weighting of all possible outcomes against  their  associated  probabilities.  Warranty  periods  may  extend  up  to  five  years.  Selling  and  administrative expenses are excluded from production costs.
+    questions_and_answers:
+      - question: |
+          How is the amount of revenue arising from a transaction determined?
+        answer: |
+          The amount of revenue arising from a transaction is usually determined by the contractual agreement with the customer. IFRS 15 provides restrictive guidance on the transaction price estimates and especially on variable consideration and contract modifications.
+      - question: |
+          What should the estimation of the transaction price include?
+        answer: |
+          The estimation of the transaction price should include variable amounts and/or contract modifications to the extent that it is highly probable that no significant reversal in the amount of cumulative revenues recognized will occur when the uncertainty associated with these elements is subsequently resolved.
+      - question: |
+          When are claims considered in the determination of contract revenue?
+        answer: |
+          In the case of 'construction contracts', claims are considered in the determination of contract revenue only when it is highly probable that the claim will result in additional revenue and the amount can be reliably estimated.
+document:
+  repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
+  commit: 13400be55bc92b9577d372d3e11194896860d0ff
+  patterns:
+    - 'data_preparation/document_collection/reports/2023/*.pdf'
