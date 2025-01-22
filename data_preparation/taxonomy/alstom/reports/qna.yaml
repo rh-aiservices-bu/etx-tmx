@@ -1,16 +1,35 @@
 version: 3
-domain: 
-created_by: 
+domain: Alstom's Press Releases
+created_by: tmx-group
 document_outline: |
-    xxxxxxx
+    Alstom press releases contains forward-looking statements which are based on current plans and forecasts of Alstom's management.
 seed_examples:
   - context: |
-      
+      ## Alstom's third quarter 2024/25: confirmed outlook for FY 2024/25
+
+      - · Q3 Order intake at € 4.3 billion, 9 months at € 15.2 billion
+      - · Q3 Sales at € 4.7 billion, 9 months at €1 3.4 billion -up 5.3% vs last year, of which 6.9% organic
+      - · Fiscal year 2024/25 outlook
+      - o Book-to-bill above 1 and sales organic growth around 5%
+      - o aEBIT margin around 6.5%
+      - o Free Cash Flow within the range €300 million to €500 million
+
+      21 January 2025 -Over the third quarter of 2024/25 (from 1 October to 31 December 2024), Alstom booked € 4.3 billion of orders. The Group's sales reached €4. 7 billion in the quarter and Rolling Stock production output totalled 1,098 cars.
+
+      For the first nine months of 2024/25 (from 1 April to 31 December 2024 ), Alstom's order intake reached € 15.2 billion , compared to €1 3.9 billion for the same period last fiscal year. The Group sales increased by  5.3%  over  9  months,  of  which  6.9%  organic  growth, reaching  €1 3.4  billion,  and  Rolling  Stock production output equalled 3,101 cars for the 9 months.
     questions_and_answers:
       - question: |
-          
+          What does the outlook look like for the fourth quarter of 2024/2025?
         answer: |
-
+          the first month of the fourth quarter reached 15.2 billion, compared to 13.2 billion in the same period in last fiscal year.Alstom is expected to post good growth.
+      - question: |
+          xxxxxxx
+        answer: |
+          xxxxxxx
+      - question: |
+          xxxxxx
+        answer: |
+          xxxxxxx
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
   commit: 13400be55bc92b9577d372d3e11194896860d0ff
