@@ -41,7 +41,6 @@ seed_examples:
           Alstom's research and development expenses were €580 million at 31 March 2023 and €604 million at 31 March 2022.
   - context: |
       ## CONSOLIDATED INCOME STATEMENT
-      
       Year ended
 
       | (in € million)                                                  | Note   | At 31 March 2023   | At 31 March 2022   |
@@ -138,7 +137,7 @@ seed_examples:
         answer: |
           At 31 March 2023, Alstom's remeasurement of post-employment benefits obligations was €256 million and at 31 March 2022, Alstom's remeasurement of post-employment benefits obligations was €341 million.
       - question: |
-          At 31 March 2023 and 31 March 2022, what was Alstom's equity investments at FVOCI?
+          At 31 March 2023 and 31 March 2022, what was Alstom's equity investments at FVOCI?.
         answer: |
           At 31 March 2023, Alstom's equity investments at FVOCI was €9 million and at 31 March 2022, Alstom's equity investments at FVOCI was €1 million.
   - context: |
@@ -191,7 +190,7 @@ seed_examples:
           In the case of 'construction contracts', claims are considered in the determination of contract revenue only when it is highly probable that the claim will result in additional revenue and the amount can be reliably estimated.
 document:
   repo: 'https://github.com/rh-aiservices-bu/etx-tmx.git'
-  commit: 1234
+  commit: b2ee3edf7c1b7eafdc1ba97f7e97946e6498389d
   patterns:
     - 'data_preparation/document_collection/reports/annual_reports/2023/*.pdf'
     - 'data_preparation/document_collection/reports/annual_reports/2024/*.pdf'
